@@ -1,9 +1,19 @@
+/*
+Document   : shared
+Created on : 21/04/2014, 12:34:00 AM
+Author     : sandy
+Description:
+Purpose of the stylesheet follows.
+*/
+/*
+TODO customize this sample style
+Syntax recommendation http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html
+*/
 .products {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
+
 .basket td {
-  vertical-align: middle !important;
-}
+  vertical-align: middle !important; }
+
 .basket .quantity input {
-  width: 50px;
-}
+  width: 50px; }
