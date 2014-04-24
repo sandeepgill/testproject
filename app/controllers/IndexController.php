@@ -1,10 +1,11 @@
 <?php
 
-class IndexController
-extends BaseController
-{
-  public function indexAction()
-  {
-    return View::make("index");
-  }
+class IndexController extends BaseController {
+
+    protected $layout='layouts.master';
+    
+    public function indexAction() {
+        $this->layout->content = View::make("index");
+    }
+
 }

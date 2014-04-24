@@ -1,8 +1,7 @@
 <?php
 
 return array(
-
-	/*
+    /*
 	|--------------------------------------------------------------------------
 	| Pagination Language Lines
 	|--------------------------------------------------------------------------
@@ -13,14 +12,8 @@ return array(
 	|
 	*/
 
-	'sitetitle' => 'Lingel Learning',
-	'accounting'     => 'Accounting',
-        'crm' => 'CRM',
-        'projectmanagement' => 'Project management',
-        'processes' => 'Processes',
-        'settings' => 'Settings',
-        'profile' => 'Profile',
-        'changepassword' => 'Change password',
-        'administration' => 'Administration',
-        'menu' => 'Menu'
+	'leads' => 'Leads',
+        'potentials' => 'Potentials',
+        'accounts' => 'Accounts',
+        'contacts' => 'Contacts'
 );

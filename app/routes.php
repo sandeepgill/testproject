@@ -38,3 +38,9 @@ Route::any("order/delete", [
   "as"   => "order/delete",
   "uses" => "OrderController@deleteAction"
 ]);
+
+//CRM routes
+Route::any("crm", [
+  "as"   => "crm",
+  "uses" => "CrmController@indexAction"
+]);
